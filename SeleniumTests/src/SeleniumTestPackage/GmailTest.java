@@ -2,11 +2,12 @@ package SeleniumTestPackage;
 
 
 import java.io.File;
-import java.util.concurrent.TimeUnit;
+
+//import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.Dimension;
-import org.openqa.selenium.Point;
+//import org.openqa.selenium.Dimension;
+//import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -18,12 +19,6 @@ public class GmailTest {
 	////
 	////
 	public static void main(String[] args) {
-		
-		/////
-		
-		////
-		///
-		///
 		
 		File file = new File("C:/chromedriver.exe");
 		System.setProperty("webdriver.chrome.driver", file.getAbsolutePath());
@@ -44,8 +39,6 @@ public class GmailTest {
 		
 		
 		/*
-		
-
 		//wait 5 secs for userid to be entered
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
@@ -61,12 +54,7 @@ public class GmailTest {
 
 		//press signout button
 		driver.findElement(By.id("gb_71")).click();
-		
-		
-		
-		
 		 */
-	
 	
 }
 
