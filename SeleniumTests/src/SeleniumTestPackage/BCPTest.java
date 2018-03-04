@@ -33,6 +33,10 @@ public class BCPTest {
 	driver1.manage().timeouts().implicitlyWait(6, TimeUnit.SECONDS);  //wait 5 secs for userid to be entered
 	
 	WebElement element1 = driver1.findElement(By.cssSelector("div.th-ip-sp.th-ip-sp-no_icon.th-if-wrapper.th-onfocus"));
+	// no such element: Unable to locate element: {"method":"css selector","selector":"div.th-ip-sp.th-ip-sp-no_icon.th-if-wrapper.th-onfocus"}
+	
+	//WebElement element1 = driver1.findElement(By.cssSelector("input.th-if th-ellipsis"));
+	
 	
 	
 	//WebElement element1 = driver1.findElement(By.id("C2_W11_V12_V74_Savebtn"));
@@ -40,7 +44,6 @@ public class BCPTest {
 	element1.click();
 	element1.sendKeys("tdnejdsye");
 	
-	//WebElement element1 = driver1.findElement(By.cssSelector("input.th-if th-ellipsis"));
 	//WebElement element1 = driver1.findElement(By.xpath("//*[@id='C13_W41_V42_SavedSearches-btn']/img"));
 	//WebElement element1 = driver1.findElement(By.id("C14_W44_V45_inputID"));
 	//driver1.findElement(By.cssSelector("input[value=\'css=#C14_W44_V45_Searchbtn > span > b']")).click();
