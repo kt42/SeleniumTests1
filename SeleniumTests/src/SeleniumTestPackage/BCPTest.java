@@ -1,6 +1,7 @@
 package SeleniumTestPackage;
 
 import java.io.File;
+
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
@@ -16,6 +17,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class BCPTest {
 	
+	public static void main(String[] args) {
 	
 	File file = new File("C:/chromedriver.exe");
 	System.setProperty("webdriver.chrome.driver", file.getAbsolutePath());
@@ -53,5 +55,5 @@ public class BCPTest {
 	driver2.quit();
 	 */
 	
-
+	}
 }
